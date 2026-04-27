@@ -1,0 +1,11 @@
+{
+  "env": {
+    "NODE_VERSION": "20"
+  },
+  "build": {
+    "npm": {
+      "install": "pnpm install",
+      "build": "pnpm build"
+    }
+  }
+}

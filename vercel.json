@@ -1,11 +1,8 @@
 {
+  "installCommand": "yarn install",
+  "buildCommand": "yarn build",
+  "outputDirectory": "dist",
   "env": {
-    "NODE_VERSION": "20"
-  },
-  "build": {
-    "npm": {
-      "install": "pnpm install",
-      "build": "pnpm build"
-    }
+    "NODE_VERSION": "18.17.0"
   }
 }

@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "deploy": "gh-pages -d dist",
+    "publish": "npm run build && npm run deploy",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.25",npm run deploy
+    "vue": "^3.5.25",
     "vuetify": "^3.12.5"
   },
   "devDependencies": {
